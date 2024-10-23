@@ -1,0 +1,78 @@
+----
+BTL1
+V1.1
+CPUI
+L1CI
+PMCI
+PMCS
+AFEL
+PWRZ
+MEML
+PMCD
+CPUI
+L1CI
+ZBSS
+CODE
+DATA
+L12F
+MAIN
+OTP?
+MFGZ
+OTPP
+USBT
+SNAN
+PASS
+----
+HELO
+CPUI
+L1CI
+4.1602-1.0.38-116.118
+PMCI
+PMCM
+DRAM
+----
+PHYS
+PHYE
+DDR1
+400H
+SIZ4
+LMBE
+RACE
+PASS
+----
+ZBSS
+CODE
+DATA
+L12F
+MAIN
+MGIC
+RAM1
+
+
+Base: 4.16_02
+CFE version 1.0.38-116.118 for BCM963381 (32bit,SP,BE)
+Build Date: Mon Jan 22 17:42:54 CST 2018 (xialei@localhost.localdomain)
+Copyright (C) 2000-2013 Broadcom Corporation.
+
+Chip ID: BCM63381B0, MIPS: 600MHz, DDR: 400MHz, Bus: 300MHz
+Main Thread: TP0
+Total Memory: 134217728 bytes (128MB)
+Boot Address: 0xb8000000
+
+SPI NAND flash device: Winbond W25N01GV, id 0xefaa block 128KB size 131072KB
+pmc_init:PMC using DQM mode
+board_device_init, set SPI slave disable!
+Info: get a version head, the integrality is OK!
+Info: start_block:[120],kernel_magic_head at :[120], i:[264],ver_blocks:[144]
+Info: get a version head, the integrality is OK!
+Info: start_block:[288],kernel_magic_head at :[288], i:[432],ver_blocks:[144]
+
+Entering norm mode ...
+Info: start_block:120
+Info: bad blocks before fs:0
+Info: pL->dwFsStartPhyAddr:10a0000
+Info: pL->fs_len:1060000
+para->BootParaCksum=0001dfed
+Decompression OK!
+Entry at 0x80395040
+Starting program at 0x80395040
